@@ -1,0 +1,80 @@
+.header {
+    min-height: 700px;
+    padding-top: 39px;
+    background: url('../img/header/bg_image.jpg') center (center / cover) no-repeat;
+    &__blocks {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__logo {
+        width: 140px;
+        height: 65px;
+    }
+    &__nav {
+        margin: auto 0;
+    }
+    &__menu {
+        width: 540px;
+        display: flex;
+        padding: 0;
+        justify-content: space-between;
+        margin: 0;
+    }
+    &__item {
+        list-style: none;
+    }
+    &__link {
+        font-size: 13px;
+        line-height: 26px;
+        font-weight: 700;
+        text-transform: uppercase;
+        color: #ffffff;
+        text-decoration: none;
+        &:hover {
+            color: #ffffff;
+        }
+    }
+    &__block {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__wrapper {
+        margin-top: 133px;
+    }
+    &__title {
+        font-size: 42px;
+        line-height: 48px;
+        font-weight: 900;
+        color: #ffffff;
+        max-width: 530px;
+    }
+    &__subtitle {
+        width: 430px;
+        margin-top: 27px;
+        font-family: Roboto;
+        font-size: 24px;
+        line-height: 30px;
+        font-weight: 300;
+        color: #ffffff;
+        span {
+            font-weight: 400;
+        }
+    }
+    &__btn {
+        width: 241px;
+        height: 60px;
+        background-color: #00c2f0;
+        box-shadow: 0px 0px 7px 0px rgba(0,0,0,0.07);
+        border: none;
+        border-radius: 5px;
+        font-size: 16px;
+        line-height: 30px;
+        font-weight: 700;
+        text-transform: uppercase;
+        color: #ffffff;
+        margin-top: 39px;
+    }
+    &__icon {
+        margin-top: 56px;
+    }
+}

@@ -1,0 +1,50 @@
+.countries {
+    height: 85px;
+    padding: 20px 0 16px 0;
+    &__blocks {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__block {
+        display: flex;
+    }
+    &__icon {
+        width: 28px;
+        height: 21px;
+        margin-right: 11px;
+    }
+    &__name {
+        font-size: 14px;
+        line-height: 18px;
+        font-weight: 700;
+        color: #242424;
+    }
+    &__phone {
+        display: block;
+        font-size: 12px;
+        font-weight: 300;
+        text-decoration: none;
+        color: #000;
+        &:hover {
+            color: #000;
+        }
+    }
+    &__item {
+        line-height: 10px;
+    }
+    &__email {
+        display: block;
+        font-size: 12px;
+        font-weight: 300;
+        text-decoration: none;
+        margin-top: -23px;
+        color: #000;
+        &:hover {
+            color: #000;
+        }
+    }
+    &__street {
+        font-size: 12px;
+        font-weight: 300;
+    }
+}
