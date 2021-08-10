@@ -1,0 +1,25 @@
+.contacts {
+    min-height: 690px;
+    padding: 80px 0 80px 0;
+    &__img {
+        display: block;
+        margin: 0 auto;
+    }
+    &__title {
+        margin-top: 74px;
+    }
+    &__btn {
+        width: 241px;
+        height: 60px;
+        background-color: #00c2f0;
+        box-shadow: 0px 0px 7px 0px rgba(0,0,0,0.07);
+        border: none;
+        font-size: 16px;
+        line-height: 30px;
+        font-weight: 700;
+        text-transform: uppercase;
+        color: #ffffff;
+        margin: 0 auto;
+        margin-top: 30px;
+    }
+}

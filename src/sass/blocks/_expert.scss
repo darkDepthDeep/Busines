@@ -1,0 +1,65 @@
+.expert {
+    min-height: 890px;
+    padding: 79px 0 61px 0;
+    background: url('../img/promo/bg_image1.jpg') center (center / cover) no-repeat;
+    &__title {
+        max-width: 640px;
+    }
+    &__menu {
+        margin: 0 auto;
+        margin-top: 25px;
+        max-width: 843px;
+        height: 64px;
+        border: 1px solid #ffffff;
+    }
+    &__btn {
+        background: transparent;
+        border: none;
+        border-right: 1px solid #8a8787;
+        font-size: 14px;
+        font-weight: 400;
+        color: #ffffff;
+        line-height: 49px;
+        margin-top: 6px;
+        margin-left: 22px;
+        padding-right: 22px;
+        &:last-child {
+            border-right: none;
+        }
+        &:hover {
+            font-weight: 700;
+            color: #00c2f0;
+        }
+    }
+    &__wrapper {
+        position: relative;
+        margin: 0 auto;
+        margin-top: 36px;
+        width: 947px;
+    }
+    .slick-slider {
+        overflow: hidden;
+    }
+    .slick-prev {
+        position: absolute;
+        background: url('../icons/promo/prev_arrow.png') center (center/ cover) no-repeat;
+        font-size: 0;
+        border: none;
+        width: 18px;
+        height: 59px;
+        top: 50%;
+        transform: translateY(-50%);
+        z-index: 10;
+    }
+    .slick-next {
+        position: absolute;
+        background: url('../icons/promo/next_arrow.png') center (center/ cover) no-repeat;
+        font-size: 0;
+        border: none;
+        width: 18px;
+        height: 59px;
+        top: 50%;
+        transform: translateY(-50%);
+        left: 98%;
+    }
+}

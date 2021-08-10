@@ -1,0 +1,49 @@
+.advantages {
+    min-height: 1332px;
+    padding: 80px 0;
+    &__title {
+        max-width: 380px;
+    }
+    &__wrapper {
+        display: grid;
+        grid-template: repeat(3, 355px) / repeat(2, 570px);
+        margin-top: 44px;
+    }
+    &__blocks {
+        width: 570px;
+        height: 355px;
+        &_1 {
+            background: url('../img/benefits/Layer-1.jpg') center (center / cover) no-repeat;
+        }
+        &_2 {
+            background: url('../img/benefits/Layer-2.jpg') center (center / cover) no-repeat;
+        }
+        &_3 {
+            background: url('../img/benefits/Layer-3.jpg') center (center / cover) no-repeat;
+        }
+        &_4 {
+            background: url('../img/benefits/Layer-4.jpg') center (center / cover) no-repeat;
+        }
+        &_5 {
+            background: url('../img/benefits/Layer-5.jpg') center (center / cover) no-repeat;
+        }
+        &_6 {
+            background: url('../img/benefits/Layer-6.jpg') center (center / cover) no-repeat;
+        }
+    }
+    &__block {
+        background-color: rgba(0,0,0, 0.43);
+        width: 570px;
+        height: 156px;
+        margin-top: 100px;
+    }
+    &__text {
+        font-size: 23px;
+        font-weight: 400;
+        color: #ffffff;
+        text-align: center;
+        margin: 0 auto;
+        padding-top: 40px;
+        max-width: 360px;
+    }
+}
