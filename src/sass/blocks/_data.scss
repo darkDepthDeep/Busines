@@ -14,10 +14,10 @@
         grid-auto-rows: minmax(580px, auto);
     }
     &__block-1 {
-        background: url('../img/data/layer-1.jpg');
+        background: url('../img/data/layer-1.jpg') center (center / cover) no-repeat;
     }
     &__block-2 {
-        background: url('../img/data/layer-2.jpg');
+        background: url('../img/data/layer-2.jpg') center (center / cover) no-repeat;
     }
     &__subtitle {
         font-size: 30px;

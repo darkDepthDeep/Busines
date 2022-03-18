@@ -1,13 +1,31 @@
 $(document).ready(function(){
     $('.header').slick({
         infinite: true,
+        dots: true,
         slidesToShow: 1,
-        slidesToScroll: 1
+        slidesToScroll: 1,
+        responsive: [
+          {
+            breakpoint: 1024,
+            settings: {
+              arrows: false
+            }
+          }
+        ]
       });
       $('.expert__wrapper').slick({
         infinite: true,
         slidesToShow: 1,
-        slidesToScroll: 1
+        slidesToScroll: 1,
+        responsive: [
+          {
+            breakpoint: 991,
+            settings: {
+              arrows: false,
+              dots: true
+            }
+          }
+        ]
       });
 
       new WOW().init();
@@ -62,5 +80,17 @@ $(document).ready(function(){
           $('.feed-form').trigger('reset');
         });
         return false;
+      });
+
+      $('.footer__company, .footer__module, .footer__industries, .footer__aboutus').on('click', function() {
+        $(this).toggleClass('active');
+      });
+      
+
+      $(document).on('mouseup', function(e) {
+        let s = $('.footer__company.active, .footer__module.active, .footer__industries.active, .footer__aboutus.active');
+        if(!s.is(e.target) && s.has(e.target).length === 0) {
+          s.removeClass('active');
+        }
       });
   });
